@@ -7,8 +7,10 @@
   onMount(() => {
     viewer = OpenSeadragon({
       id: "mapContainer",
-      prefixUrl: "../src/data/atlas_files/",
-      tileSources: "../src/data/atlas.dzi",
+      prefixUrl:
+        "https://github.com/thedatacurious/atlas-of-my-escapism/tree/main/src/data/atlas_files/",
+      tileSources:
+        "https://raw.githubusercontent.com/thedatacurious/atlas-of-my-escapism/main/src/data/atlas.dzi",
       maxZoomLevel: 8,
     });
   });
