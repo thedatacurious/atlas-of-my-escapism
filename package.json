@@ -6,11 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node src/data/data.js"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
     "svelte": "^3.55.1",
     "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@sveltejs/svelte-scroller": "^2.0.7",
+    "@types/openseadragon": "^3.0.5",
+    "arquero": "^5.1.0",
+    "maplibre-gl": "^2.4.0",
+    "openseadragon": "^4.0.0"
   }
 }
